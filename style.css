@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),url("./currency.jpg") no-repeat 0px 0px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+} 
+.container
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 25%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.container h2
+{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container p
+{
+    margin-bottom: 2px;
+}
+form button,select,input
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+form input
+{
+    font-size: 15px;
+    border: 1px solid lightgray;
+    height: 40px;
+    padding-left: 8px;
+}
+
+.dropdown
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.select-container
+{
+    border: 1px solid lightgray;
+    max-width: 155px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .select-container img
+{
+    padding: 0 5px;
+} */
+
+.select-container img {
+    width: 24px;
+    height: 18px;
+    object-fit: cover;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.exchange button
+{
+    font-size: 15px;
+    margin-top: 28px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.result
+{
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid lightgray;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+    padding: 20px 5px;
+}
+.convert button
+{
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+    background: linear-gradient(-225deg, #29288f 0%, #1f1d83 48%);
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: #fff;
+}
+.convert button:hover
+{
+    background: linear-gradient(-225deg, #2a3053 0%, #252957 48%);
+}
+.exchange button:hover {
+    background-color: rgb(230, 230, 230); 
+}
+@media screen and (max-width: 1300px)
+{
+    .container
+    {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1100px)
+{
+    .container
+    {
+        width: 37%;
+    }
+    .result
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 850px)
+{
+    .container
+    {
+        width: 43%;
+    }
+    .container h2
+    {
+        font-size: 20px;
+    }
+    form input
+    {
+        font-size: 14px;
+    }
+    .convert button
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px)
+{
+    .container
+    {
+        width: 52%;
+    }
+    .result
+    {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .container
+    {
+        width: 56%;
+    }
+    .select-container
+    {
+        max-width: 100px;
+    }
+    .result
+    {
+        font-size: 12px;
+    }
+    .select-container img
+    {
+        padding: 0 3px;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .container
+    {
+        width: 69%;
+    }
+    .result
+    {
+        font-size: 10px;
+    }
+}
