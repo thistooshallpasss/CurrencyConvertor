@@ -4,7 +4,8 @@ A simple web-based currency converter that allows users to convert between diffe
 
 ## 🌐 Live Demo
 
-Coming soon...
+<img width="1405" alt="Screenshot 2025-05-20 at 16 46 58" src="https://github.com/user-attachments/assets/b85ae20b-5d73-4010-a83b-3b43a2b026c6" />
+
 
 ## 🚀 Features
 
